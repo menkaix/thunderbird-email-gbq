@@ -12,9 +12,20 @@
     },
     "browser_action": {
         "default_popup": "mainPopup/popup.html",
-        "default_title": "Hello World",
+        "default_title": "BigQuery",
         "default_icon": "images/internet-32px.png"
     },
+
+    "message_display_action": {
+        "default_popup": "mainPopup/processMail.html",
+        "default_title": "Details",
+        "default_icon": "images/internet-32px.png"
+    },
+
+    "permissions": [
+        "messagesRead"
+    ],
+
     "icons": {
         "64": "images/internet.png",
         "32": "images/internet-32px.png",
