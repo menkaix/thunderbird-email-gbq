@@ -4,6 +4,8 @@
     "description": "pushes email to Google bigquery",
     "version": "1.0",
     "author": "menka.ix",
+
+
     "browser_specific_settings": {
         "gecko": {
             "id": "dashboard@menkaix.com",
@@ -22,8 +24,18 @@
         "default_icon": "images/internet-32px.png"
     },
 
+    
+    "background": {
+        "page": "background.html"
+    },
+
+
     "permissions": [
-        "messagesRead"
+        "messagesRead",
+        "accountsRead",
+        "storage",
+        "menus",
+        "notifications"
     ],
 
     "icons": {
